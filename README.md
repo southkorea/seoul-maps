@@ -69,7 +69,7 @@ Numbers in parentheses are simplified versions of each format.
 
 ## Examples
 
-- TBD
+- [식신로드 만점식당 20선](http://bl.ocks.org/e9t/ba9edd99793a5c91eaab) ([KOSTAT TopoJSON, 2013](https://github.com/southkorea/seoul-maps/blob/master/kostat/2013/json/seoul_municipalities_topo_simple.json))<br><img src="static/siksin.png" width="200px">
 
 ## Copyright and License
 ### Contributors
