@@ -16,6 +16,7 @@ and [`TopoJSON`](http://github.com/mbostock/topojson).
 Data is acquired from the following sources:
 
 - [KOSTAT](http://kostat.go.kr): [Administrative division geodata for Census (센서스용 행정구역경계), 2013](http://sgis.kostat.go.kr/statbd/statbd_03.vw)
+- [NSDI](http://nsdi.go.kr): [법정동의 경계구역을 표시한 정보, 2016](http://openapi.nsdi.go.kr/nsdi/eios/OpenapiList.do?gubun=F)
 
 ### Levels
 Seoul administrative divisions are consisted of two levels:
@@ -26,7 +27,7 @@ Seoul administrative divisions are consisted of two levels:
 
 ### Data
 The following data are available.<br>
-Numbers are data sizes in *Kilobytes* in the following order: Municipalities, Submunicipalities.<br>
+Numbers are data sizes in *Kilobytes* in the following order: Municipalities, Submunicipalities, Neighborhoods.<br>
 Numbers in parentheses are simplified versions of each format.
 
 <table>
@@ -34,20 +35,24 @@ Numbers in parentheses are simplified versions of each format.
     <tr>
         <th>Format \ Source</th>
         <th>KOSTAT (2013)</th>
+        <th>NSDI (2016)</th>
     </tr>
 </thead>
 <tbody>
     <tr>
         <td>Shapefile</td>
-        <td>396, 1528</td>
+        <td>396, 1528, 0</td>
+        <td>0, 0, 2651</td>
     </tr>
     <tr>
         <td>GeoJSON</td>
-        <td>772, 3000<br>(44, 168)</td>
+        <td>772, 3000, 0<br>(44, 168, 0)</td>
+        <td>0, 0, 8743<br>(0, 0, 306)</td>
     </tr>
     <tr>
         <td>TopoJSON</td>
-        <td>112, 412<br>(16, 96)</td>
+        <td>112, 412, 0<br>(16, 96, 0)</td>
+        <td>0, 0, 962<br>(0, 0, 142)</td>
     </tr>
 </tbody>
 </table>
