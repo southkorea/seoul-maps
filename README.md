@@ -7,16 +7,17 @@ To see maps for South Korea, go to https://github.com/southkorea/southkorea-maps
 
 ## Description
 ### Formats
-The following formats are available: 
+The following formats are available:
 [`Shapefile`](http://en.wikipedia.org/wiki/Shapefile),
 [`GeoJSON`](http://geojson.org),
 and [`TopoJSON`](http://github.com/mbostock/topojson).
 
-### Sources 
+### Sources
 Data is acquired from the following sources:
 
 - [KOSTAT](http://kostat.go.kr): [Administrative division geodata for Census (센서스용 행정구역경계), 2013](http://sgis.kostat.go.kr/statbd/statbd_03.vw)
-- [NSDI](http://nsdi.go.kr): [법정동의 경계구역을 표시한 정보, 2016](http://openapi.nsdi.go.kr/nsdi/eios/OpenapiList.do?gubun=F)
+- [JUSO](http://www.juso.go.kr/): [서울시 행정구역 읍면동 위치정보, 2015](http://data.seoul.go.kr/openinf/mapview.jsp?infId=OA-13223)
+- [JUSO](http://www.juso.go.kr/): [서울시 행정구역 시군구 정보, 2015](http://data.seoul.go.kr/openinf/mapview.jsp?infId=OA-11677)
 
 ### Levels
 Seoul administrative divisions are consisted of two levels:
@@ -35,24 +36,24 @@ Numbers in parentheses are simplified versions of each format.
     <tr>
         <th>Format \ Source</th>
         <th>KOSTAT (2013)</th>
-        <th>NSDI (2016)</th>
+        <th>JUSO (2015)</th>
     </tr>
 </thead>
 <tbody>
     <tr>
         <td>Shapefile</td>
         <td>396, 1528, 0</td>
-        <td>0, 0, 2651</td>
+        <td>604, 0, 2595</td>
     </tr>
     <tr>
         <td>GeoJSON</td>
         <td>772, 3000, 0<br>(44, 168, 0)</td>
-        <td>0, 0, 8743<br>(0, 0, 306)</td>
+        <td>1597, 0, 6899<br>(188, 0, 526)</td>
     </tr>
     <tr>
         <td>TopoJSON</td>
         <td>112, 412, 0<br>(16, 96, 0)</td>
-        <td>0, 0, 962<br>(0, 0, 142)</td>
+        <td>288, 0, 877<br>(91, 0, 187)</td>
     </tr>
 </tbody>
 </table>
